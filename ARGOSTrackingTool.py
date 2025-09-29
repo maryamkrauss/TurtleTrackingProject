@@ -33,7 +33,9 @@ while lineString != "":
     obs_date = lineData[2]
     obs_lc = lineData[4]
     obs_lat = lineData[6]
-    obs_lon = lineData[7]
+    obs_lon = lineData[7] 
+
+    ## This is a Git test
 
     #Print the location of sara
     print(f"Record {record_id} indicates Sara was seen at lat:{obs_lat},lon:{obs_lon} on {obs_date}")
